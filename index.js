@@ -102,6 +102,7 @@ const executarQuiz = () => {
       mostrarRespostaIncorreta(perguntas[i].resposta.toUpperCase());
     }
   }
+  // Pontuação final do usuário
   alert(`Quiz finalizado! Sua pontuação é: ${pontuacao}/${perguntas.length}! Obrigado por jogar!`);
 };
 
